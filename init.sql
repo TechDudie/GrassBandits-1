@@ -1,0 +1,6 @@
+-- SQL DATABASE FOR GRASSBANDITS
+-- @block
+
+CREATE DATABASE `GrassBandits`
+
+CREATE TABLE `requests` ()
