@@ -2,12 +2,16 @@
 $servername = "localhost";
 
 // username here:
-$username = "";
+$username = "root";
 
 // password here!
 $password = "";
 
-$conn = new mysqli($servername, $username, $password);
+// database name here:
+
+$db_name = "GrassBandits";
+
+$conn = new mysqli($servername, $username, $password, $db_name);
 
 if ($conn->connect_error) {
   die("CRITICAL ERROR! CONNECTION FAILED! Err: " . $conn->connect_error);
