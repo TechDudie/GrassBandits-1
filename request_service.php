@@ -1,4 +1,4 @@
-<?php 
+<?php // Personal Home Page (PHP)
 include_once 'connect.php'
 ?>
 
@@ -13,17 +13,25 @@ include_once 'connect.php'
 </head>
 <body>
 
-    <?php
+
+
+    <form action="req_service_insert.php" method="POST">
+        <input type="text" name="name" placeholder="Name">
+        <br>
+        <input type="text" name="service_house_number" placeholder="House number">
+        <br>
+        <input type="text" name="service_street_and_city" placeholder="Street, City">
+        <br>
+        <input type="text" name="job_needed" placeholder="Job Needed">
+        <br>
+        <input type="text" name="date_of_service" placeholder="Date">
+        <br>
+        <input type="text" name="time_of_service" placeholder="Time">
+
+        <button type="submit" name="submit">Submit</button>
+
+     </form>
     
-    $write = "";
-    $read = "SELECT * FROM `requests`;";
-    $result = mysqli_query($conn, $read);
-    $ResultNotNull = "";
-    
-    
-    
-    
-    ?>
 
 
 

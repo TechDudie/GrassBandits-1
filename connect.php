@@ -1,4 +1,4 @@
-<?php
+<?php // Personal Home Page (PHP)
 $servername = "localhost";
 
 // username here:
