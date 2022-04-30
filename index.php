@@ -3,7 +3,7 @@
 <head>
 
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"></link>
     <title>GrassBandits</title>
     
 </head>
