@@ -10,7 +10,7 @@ CREATE TABLE `requests` (
     `service_street_and_city` varchar(300) NOT NULL,
     `job_needed` varchar(50) NOT NULL,
     `date` date NOT NULL,
-    `time` time NOT NULL,
+    `time` int NOT NULL UNIQUE,
     `status` boolean NOT NULL
 
 
