@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 
 <head>
@@ -8,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>GrassBandits</title>
     
-    </head>
+</head>
 <body>
 
 
