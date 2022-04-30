@@ -9,7 +9,7 @@
     $date = $_POST['date_of_service'];
     $time = $_POST['time_of_service'];
 
-    $write = "INSERT INTO `requests` (`name`, `service_house_number`, `service_street_and_city`, `job_needed`, `date_of_service`, `time_of_service`, `status`) 
+    $write = "INSERT INTO `requests` (`name`, `service_house_number`, `service_street_and_city`, `job_needed`, `date`, `time`, `status`) 
     VALUES ('$name', '$house_number', '$street_city', '$job', '$date', '$time', false)";
 
     mysqli_query($conn, $write);
