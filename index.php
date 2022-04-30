@@ -11,7 +11,7 @@
 
 
 
-    <form action="insert.php" method="POST">
+    <form action="insert.php" method="POST" class="req_form">
         
         <input type="text" name="name" placeholder="Name"></input>
         
