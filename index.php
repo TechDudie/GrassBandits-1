@@ -14,23 +14,23 @@
 
 
 
-    <form action="req_service_insert.php" method="POST">
-        <br>
+    <form action="insert.php" method="POST">
+        
         <input type="text" name="name" placeholder="Name">
-        <br>
+        
         <input type="text" name="service_house_number" placeholder="House number">
-        <br>
+        
         <input type="text" name="service_street_and_city" placeholder="Street, City">
-        <br>
+        
         <input type="text" name="job_needed" placeholder="Job Needed">
-        <br>
+        
         <input type="text" name="date_of_service" placeholder="Date">
-        <br>
+        
         <input type="text" name="time_of_service" placeholder="Time">
-        <br>
-
+        
         <button type="submit" name="submit">Submit</button>
-        <br>
+        
+
 
      </form>
     
