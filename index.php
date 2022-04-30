@@ -1,6 +1,4 @@
-<?php // Personal Home Page (PHP)
-include_once 'connect.php'
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
