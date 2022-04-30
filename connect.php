@@ -2,10 +2,10 @@
 $servername = "localhost";
 
 // username here:
-$username = "root";
+$username = "phpconnect";
 
 // password here!
-$password = "";
+$password = "PHPpasswd1234";
 
 // database name here:
 
