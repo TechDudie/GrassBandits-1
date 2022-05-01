@@ -8,7 +8,7 @@
             "server": "50.116.45.156",
             "port": 3306,
             "driver": "MySQL",
-            "name": "GrassBandits DB",
+            "name": "GrassBandits",
             "database": "GrassBandits",
             "username": "hardwaregore",
             "password": "/urfatmom\\"
