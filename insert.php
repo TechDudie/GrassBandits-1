@@ -16,17 +16,6 @@
 
     header("Location: index.php");
 
-    function mail_alert() {
-    $msg = "Service Request for $name at $house_number $street_city. \n Job needed: $job \n Time: $date at $time";
-
-
-
-    mail("hardwaregore101@gmail.com","New GrassBandits service request",$msg);
-        
-    }
-
-
-    mail_alert()
 
 
 
