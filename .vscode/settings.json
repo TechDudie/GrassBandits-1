@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "50.116.45.156",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "GrassBandits DB",
+            "database": "GrassBandits",
+            "username": "hardwaregore",
+            "password": "/urfatmom\\"
+        }
+    ]
+}
