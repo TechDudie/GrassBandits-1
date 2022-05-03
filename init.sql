@@ -1,7 +1,7 @@
 -- STRUCTURED QUERY LANGUAGE (Sequel or SQL)
 -- @block
 
-CREATE DATABASE `GrassBandits`
+CREATE DATABASE `GrassBandits`;
 
 CREATE TABLE `requests` (
     `id` int NOT NULL UNIQUE AUTO_INCREMENT,
