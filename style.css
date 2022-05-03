@@ -1,28 +1,20 @@
 /* Cascading Style Sheet (CSS) */
-.head {
-  
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  position: relative;
-  animation-name: example;
-  animation-duration: 4s;
+@keyframes expd {
+  0% 
+  {
+    transform: translateY(1400px);
+  }
+  100% 
+  {
+    transform: translateY(0px);
+  }
 }
 
-@keyframes example {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
-}
- body {
-  width: 100px;
-  height: 100px;
-  background: red;
-  transition: width 2s, height 4s;
-}
-div:hover {
-  width: 300px;
-  height: 300px;
+@keyframes sLft {
+  0% {
+    transform: translateX(300px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
