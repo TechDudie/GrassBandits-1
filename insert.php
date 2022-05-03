@@ -14,7 +14,7 @@
 
     mysqli_query($conn, $write);
 
-    header("Location: index.php");
+    header("Location: req_service.php");
 
 
 
