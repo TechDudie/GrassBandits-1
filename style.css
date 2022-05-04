@@ -53,4 +53,12 @@ body {
   -webkit-transform: translateX(0);
   transform: translateX(0);
   }
-  } 
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
