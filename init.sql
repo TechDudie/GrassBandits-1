@@ -8,6 +8,7 @@ USE `GrassBandits`
 CREATE TABLE `requests` (
     `id` int NOT NULL UNIQUE AUTO_INCREMENT,
     `name` varchar(255) NOT NULL,
+    `contact_info` varchar(255) NOT NULL,
     `service_address` varchar(200) NOT NULL,
     `job_needed` varchar(50) NOT NULL,
     `date` varchar(100) NOT NULL,
