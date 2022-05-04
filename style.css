@@ -56,13 +56,3 @@ body {
   transform: translateX(0);
   }
   } 
-h1, h2 {
-  text-color: white;
-  font-family: sans-sherif;
-
-}
-div:hover {
-  width: 300px;
-}  
-
-
