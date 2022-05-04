@@ -59,10 +59,7 @@ body {
 h1, h2 {
   text-color: white;
   font-family: sans-sherif;
-  width: 100px;
-  height: 100px;
-  background: red;
-  transition: width 2s;
+
 }
 div:hover {
   width: 300px;
