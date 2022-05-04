@@ -56,7 +56,7 @@ body {
   transform: translateX(0);
   }
   } 
-h1, h2 {
+h1, h2, p {
   text-color: white;
   font-family: sans-sherif;
   width: 100px;
