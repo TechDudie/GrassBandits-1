@@ -16,7 +16,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <title>Welcome</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        body{ font: 14px sans-serif; text-align: center; }
+        body{ font: 14px sans-serif; text-align: center; background-image: linear-gradient(90deg, rgba(0,200,0,1) 0%, rgba(0,255,0,1) 50%, rgba(0,200,0,1) 100%); }
     </style>
 </head>
 <body>
