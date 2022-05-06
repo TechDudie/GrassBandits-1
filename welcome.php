@@ -27,5 +27,36 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <a href="reset-password.php" class="btn btn-warning">Reset Password</a>
      
     </p>
+ 
+ <div>
+  <form action="insert.php" method="POST" class="req_form">
+        <br>
+        <input type="text" name="name" placeholder="Name"></input>
+  </br>
+ <br>
+        
+        <input type="text" name="contact_info" placeholder="Contact info"></input>
+ </br>
+<br>
+        
+        <input type="text" name="service_address" placeholder="Address"></input>
+</br>
+<br>
+        
+        <input type="text" name="job_needed" placeholder="Job Needed"></input>
+</br>
+<br>
+        
+        <input type="datetime-local" name="date" placeholder="Date and time"></input>
+</br>
+<br>
+        
+        <button type="submit" name="submit">Submit</button>
+</br>
+        
+
+
+     </form>
+ </div>
 </body>
 </html>
