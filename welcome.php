@@ -29,8 +29,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     </p>
  
  <div>
-  <form action="insert-account.php" method="POST" class="req_form">
-        
+  <form action="insert.php" method="POST" class="req_form">
+   <br>
+   <input type="text" name="contact_info" placeholder="Contact info"></input>
+   </br>
  <br>
         
         <input type="text" name="contact_info" placeholder="Contact info"></input>
