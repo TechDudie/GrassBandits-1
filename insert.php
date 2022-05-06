@@ -4,9 +4,9 @@
 
     $name = $_POST['name'];
     $contact = $_POST['contact_info'];
-    $address = $_POST['service_house_number'];
+    $address = $_POST['service_address'];
     $job = $_POST['job_needed'];
-    $date = $_POST['time_of_service'];
+    $date = $_POST['date'];
 
     $write = "INSERT INTO `requests` (`name`, `service_address`, `contact_info`, `job_needed`, `date`, `status`) 
     VALUES ('$name', '$address', '$contact', '$job', '$date', false);";
