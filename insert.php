@@ -13,7 +13,7 @@
 
     mysqli_query($conn, $write);
 
-    header("Location: req_service.php");
+    header("Location: req_service.html");
 
 
 
